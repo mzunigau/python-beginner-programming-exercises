@@ -19,6 +19,12 @@ def get_allStudentColors():
     example_color = 1
     students_array = []
     #your loop here
+    for number in range(1,11):
+        print(number)
+        rand = random.randint(1,4)
+        index = students_array.index(rand)
+        
+        
 
 
 
