@@ -18,16 +18,17 @@ def get_allStudentColors():
 
     example_color = 1
     students_array = []
+    findColor = false
     #your loop here
     for number in range(1,11):
         print(number)
-        rand = random.randint(1,4)
-        index = students_array.index(rand)
+        example_color = random.randint(1,4)
+        for students in students_array
+            if students == example_color:
+                findColor = true
+        students_array.append(get_color(example_color))
+    return students_array
+       
         
-        
-
-
-
-
 
 print(get_allStudentColors())
